@@ -1,6 +1,42 @@
-<foaf:Person rdf:about="#apilot" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-    <foaf:name>Adrien Pilot</foaf:name>
-    <foaf:homepage rdf:resource="http://apilot.org/" />
-    <foaf:openid rdf:resource="http://apilot.org/" />
-    <foaf:img rdf:resource="/images/me.jpg" />
-</foaf:Person>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:admin="http://webns.net/mvcb/">
+    <foaf:PersonalProfileDocument rdf:about="apilot">
+        <foaf:maker rdf:resource="#apilot" />
+        <foaf:primaryTopic rdf:resource="#apilot" />
+    </foaf:PersonalProfileDocument>
+    <foaf:Person rdf:ID="apilot">
+        <foaf:name>Adrien Pilot</foaf:name>
+        <foaf:title>Mr</foaf:title>
+        <foaf:givenname>Adrien</foaf:givenname>
+        <foaf:family_name>Pilot</foaf:family_name>
+        <foaf:nick>Dridri</foaf:nick>
+        <foaf:mbox rdf:resource="mailto:adrienpilot1@gmail.com" />
+        <foaf:homepage rdf:resource="https://adrienpilot.github.io" />
+        <foaf:phone rdf:resource="tel:0781814277" />
+        <foaf:workplaceHomepage rdf:resource="/" />
+        <foaf:schoolHomepage rdf:resource="https://www.univ-larochelle.fr" />
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:name>Alexandre</foaf:name>
+                <foaf:mbox rdf:resource="mailto:alexandre@gmail.com" />
+            </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:name>Olivier</foaf:name>
+                <foaf:mbox rdf:resource="mailto:olivier@gmail.com" />
+            </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:name>Erwan</foaf:name>
+                <foaf:mbox rdf:resource="mailto:erwan@gmail.com" />
+            </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:name>Romain</foaf:name>
+                <foaf:mbox rdf:resource="mailto:romain@gmail.com" />
+            </foaf:Person>
+        </foaf:knows>
+    </foaf:Person>
+</rdf:RDF>
