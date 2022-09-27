@@ -1,0 +1,6 @@
+<foaf:Person rdf:about="#apilot" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name>Adrien Pilot</foaf:name>
+    <foaf:homepage rdf:resource="http://apilot.org/" />
+    <foaf:openid rdf:resource="http://apilot.org/" />
+    <foaf:img rdf:resource="/images/me.jpg" />
+</foaf:Person>
