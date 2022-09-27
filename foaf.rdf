@@ -9,6 +9,7 @@
         <foaf:givenname>Adrien</foaf:givenname>
         <foaf:family_name>Pilot</foaf:family_name>
         <foaf:nick>Dridri</foaf:nick>
+        <foaf:gender>Male</foaf:gender>
         <foaf:mbox rdf:resource="mailto:adrienpilot1@gmail.com" />
         <foaf:homepage rdf:resource="https://adrienpilot.github.io" />
         <foaf:phone rdf:resource="tel:0781814277" />
